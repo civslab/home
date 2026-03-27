@@ -2,7 +2,28 @@ const legacyAsset = (fileName) => `${import.meta.env.BASE_URL}assets/legacy/${fi
 const teamAsset = (fileName) => `${import.meta.env.BASE_URL}assets/legacy/team/${fileName}`;
 
 export const siteAssets = {
-  hero: legacyAsset("hero-poster.jpg"),
+  heroCollage: [
+    {
+      src: legacyAsset("4.jpeg"),
+      alt: "Participant completing an inclined-surface movement task in the lab.",
+      position: "56% 44%",
+    },
+    {
+      src: legacyAsset("2.jpeg"),
+      alt: "Participant instrumented for fatigue and movement analysis.",
+      position: "50% 28%",
+    },
+    {
+      src: legacyAsset("1.jpeg"),
+      alt: "Wearable sensing equipment prepared for lab studies.",
+      position: "50% 50%",
+    },
+    {
+      src: legacyAsset("3.jpeg"),
+      alt: "Sensing and monitoring devices used in CIVS Lab studies.",
+      position: "50% 50%",
+    },
+  ],
   teamCover: legacyAsset("lab-home.jpg"),
   researchBanner: legacyAsset("research-banner.jpg"),
   constructionEducation: legacyAsset("construction-education.jpg"),
@@ -18,7 +39,7 @@ export const siteAssets = {
   sujanPortrait: teamAsset("sujan-acharya.jpg"),
   bikeshPortrait: teamAsset("bikesh-suwal.jpeg"),
   shreePortrait: teamAsset("shree-gnanasekar.jpg"),
-  alishanPortrait: legacyAsset("alishan.png"),
+  alishanPortrait: teamAsset("alishan.png.jpeg"),
   davidPortrait: teamAsset("david-canas-vanegas.jpg"),
   tarekPortrait: teamAsset("tarek-mahmud.jpg"),
   omarPortrait: teamAsset("omar-snosi.png"),
@@ -47,6 +68,8 @@ export const aboutContent = {
     "Dr. Krishna Kisi works with collaborators across the globe and serves students in construction science and management through research, teaching, and workforce-focused innovation.",
   image: siteAssets.krishnaPortrait,
   imageAlt: "Dr. Krishna Kisi standing on the Texas State University campus.",
+  imageFit: "cover",
+  imagePosition: "82% 24%",
   credentials: [
     {
       label: "Doctoral Degree",
@@ -98,6 +121,8 @@ export const researchInterests = [
     image: siteAssets.teamCover,
     imageAlt:
       "CIVS Lab team photo used to represent STEM workforce resiliency and mentoring.",
+    imageFit: "cover",
+    imagePosition: "78% 26%",
   },
   {
     title: "Health and Safety",
@@ -107,6 +132,8 @@ export const researchInterests = [
     image: siteAssets.safetyBanner,
     imageAlt:
       "Safety research banner from the previous CIVS Lab website export.",
+    imageFit: "cover",
+    imagePosition: "50% 58%",
   },
   {
     title: "AI and Human Performance",
@@ -116,6 +143,8 @@ export const researchInterests = [
     image: siteAssets.researchBanner,
     imageAlt:
       "Wide CIVS Lab research banner used to represent AI and human performance work.",
+    imageFit: "cover",
+    imagePosition: "78% 24%",
   },
   {
     title: "Cognitive and Physical Fatigue",
@@ -125,6 +154,8 @@ export const researchInterests = [
     image: siteAssets.roofingMusculoskeletal,
     imageAlt:
       "Wearable-sensor research image used for cognitive and physical fatigue studies.",
+    imageFit: "cover",
+    imagePosition: "50% 40%",
   },
   {
     title: "Dispute Resolution",
@@ -134,6 +165,8 @@ export const researchInterests = [
     image: siteAssets.disputeBanner,
     imageAlt:
       "Dispute resolution project banner from the previous CIVS Lab site.",
+    imageFit: "cover",
+    imagePosition: "54% 52%",
   },
   {
     title: "Smart Technologies",
@@ -143,6 +176,8 @@ export const researchInterests = [
     image: siteAssets.technologyBanner,
     imageAlt:
       "Technology in training and education banner from the previous CIVS Lab site.",
+    imageFit: "cover",
+    imagePosition: "50% 50%",
   },
 ];
 
@@ -156,6 +191,8 @@ export const projects = [
     image: siteAssets.constructionEducation,
     imageAlt:
       "Augmented reality construction education image from the previous CIVS Lab site.",
+    imageFit: "cover",
+    imagePosition: "50% 42%",
   },
   {
     title: "Work-Related Musculoskeletal Disorder",
@@ -166,6 +203,8 @@ export const projects = [
     image: siteAssets.roofingMusculoskeletal,
     imageAlt:
       "Wearable sensor image associated with work-related musculoskeletal disorder research.",
+    imageFit: "cover",
+    imagePosition: "50% 42%",
   },
   {
     title: "Safety Awareness Learning and Training through VR",
@@ -176,6 +215,8 @@ export const projects = [
     image: siteAssets.vrTraining,
     imageAlt:
       "VR safety training image from the previous CIVS Lab research page.",
+    imageFit: "cover",
+    imagePosition: "50% 40%",
   },
   {
     title: "Decision Making Cognitive Research",
@@ -186,6 +227,8 @@ export const projects = [
     image: siteAssets.cognitiveDecision,
     imageAlt:
       "Cognitive decision-making image from the previous CIVS Lab research page.",
+    imageFit: "cover",
+    imagePosition: "58% 52%",
   },
   {
     title: "Dispute Resolution in Construction and Engineering",
@@ -196,6 +239,8 @@ export const projects = [
     image: siteAssets.disputeBanner,
     imageAlt:
       "Dispute resolution banner from the previous CIVS Lab project page.",
+    imageFit: "cover",
+    imagePosition: "54% 52%",
   },
   {
     title: "Technology in Training and Education",
@@ -206,6 +251,8 @@ export const projects = [
     image: siteAssets.technologyBanner,
     imageAlt:
       "Technology in training and education banner from the previous CIVS Lab project page.",
+    imageFit: "cover",
+    imagePosition: "50% 50%",
   },
   {
     title: "Optimal Productivity, Synthesis, and Simulation",
@@ -216,6 +263,8 @@ export const projects = [
     image: siteAssets.productivityBanner,
     imageAlt:
       "Optimal productivity, synthesis, and simulation banner from the previous CIVS Lab project page.",
+    imageFit: "cover",
+    imagePosition: "40% 52%",
   },
 ];
 
@@ -229,6 +278,8 @@ export const researchTeam = {
       "Leads the CIVS Lab research agenda across construction informatics, visualization, safety, and human performance.",
     image: siteAssets.krishnaPortrait,
     imageAlt: "Dr. Krishna Kisi on campus at Texas State University.",
+    imageFit: "cover",
+    imagePosition: "82% 24%",
   },
   groups: [
     {
