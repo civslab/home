@@ -44,7 +44,7 @@ export default function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
-        <Hero image={siteAssets.hero} />
+        <Hero collageImages={siteAssets.heroCollage} />
         <AboutSection about={aboutContent} />
         <ScrollingSection
           id="research"
