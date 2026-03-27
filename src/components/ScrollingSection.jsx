@@ -1,26 +1,41 @@
 import { motion, useReducedMotion } from "framer-motion";
 
 function ResearchCard({ card, featured = false }) {
+  const imageIsContained = card.imageFit === "contain";
+
   return (
     <article
       className={`section-frame overflow-hidden rounded-xl ${
         featured ? "surface-card" : "surface-panel"
       } ghost-outline`}
     >
-      <div className={`${featured ? "grid lg:grid-cols-[1.05fr,0.95fr]" : ""}`}>
+      <div
+        className={`grid ${
+          featured ? "lg:grid-cols-[1.05fr,0.95fr]" : "md:grid-cols-[1.02fr,0.98fr]"
+        }`}
+      >
         <div className={`overflow-hidden ${featured ? "order-2 lg:order-1" : ""}`}>
-          <img
-            src={card.image}
-            alt={card.imageAlt}
-            className={`w-full object-cover transition-transform duration-700 hover:scale-[1.02] ${
-              featured ? "h-full min-h-[260px]" : "aspect-[16/9]"
+          <div
+            className={`h-full ${
+              imageIsContained
+                ? "bg-[var(--surface-high)] p-4"
+                : ""
             }`}
-            loading="lazy"
-            decoding="async"
-          />
+          >
+            <img
+              src={card.image}
+              alt={card.imageAlt}
+              className={`w-full transition-transform duration-700 hover:scale-[1.02] ${
+                imageIsContained ? "object-contain" : "object-cover"
+              } ${featured ? "h-full min-h-[260px]" : "h-full min-h-[220px]"}`}
+              style={{ objectPosition: card.imagePosition || "center" }}
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
         </div>
 
-        <div className={`p-6 ${featured ? "order-1 lg:order-2 lg:p-8" : ""}`}>
+        <div className={`p-6 ${featured ? "order-1 lg:order-2 lg:p-8" : "lg:p-5"}`}>
           <p className="eyebrow">{card.badge}</p>
           <h3
             className={`section-title mt-4 font-heading font-extrabold ${

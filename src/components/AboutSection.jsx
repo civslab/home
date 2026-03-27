@@ -62,7 +62,10 @@ export default function AboutSection({ about }) {
               <img
                 src={about.image}
                 alt={about.imageAlt}
-                className="aspect-[4/3.75] w-full rounded-lg object-cover object-top"
+                className={`aspect-[16/12] w-full rounded-lg ${
+                  about.imageFit === "contain" ? "object-contain" : "object-cover"
+                }`}
+                style={{ objectPosition: about.imagePosition || "center top" }}
                 loading="lazy"
                 decoding="async"
               />

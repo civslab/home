@@ -31,13 +31,20 @@ export default function ProjectsGrid({ projects }) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.15 }}
                 transition={{ duration: 0.35, delay: prefersReducedMotion ? 0 : index * 0.03 }}
-                className="surface-card ghost-outline section-frame grid gap-4 rounded-xl p-4 sm:grid-cols-[168px,1fr]"
+                className="surface-card ghost-outline section-frame grid gap-4 rounded-xl p-4 lg:grid-cols-[1.02fr,0.98fr]"
               >
-                <div className="overflow-hidden rounded-lg">
+                <div
+                  className={`overflow-hidden rounded-lg ${
+                    project.imageFit === "contain" ? "bg-[var(--surface-low)] p-3" : ""
+                  }`}
+                >
                   <img
                     src={project.image}
                     alt={project.imageAlt}
-                    className="aspect-[4/3] h-full w-full object-cover"
+                    className={`h-full w-full ${
+                      project.imageFit === "contain" ? "object-contain" : "object-cover"
+                    } min-h-[230px]`}
+                    style={{ objectPosition: project.imagePosition || "center" }}
                     loading="lazy"
                     decoding="async"
                   />

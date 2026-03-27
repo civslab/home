@@ -20,7 +20,10 @@ function MemberCard({ member }) {
         <img
           src={member.image}
           alt={member.imageAlt || `${member.name} portrait`}
-          className="aspect-[4/4.2] w-full rounded-md object-cover"
+          className={`aspect-[4/4.2] w-full rounded-md ${
+            member.imageFit === "contain" ? "object-contain" : "object-cover"
+          }`}
+          style={{ objectPosition: member.imagePosition || "center" }}
           loading="lazy"
           decoding="async"
           onError={() => setImageUnavailable(true)}
@@ -119,11 +122,14 @@ export default function TeamSection({ team }) {
             <p className="eyebrow">
               {team.lead.level} {team.lead.title}
             </p>
-            <div className="mt-5 grid gap-5 sm:grid-cols-[170px,1fr] sm:items-center">
+            <div className="mt-5 grid gap-5 sm:grid-cols-[260px,1fr] sm:items-center">
               <img
                 src={team.lead.image}
                 alt={team.lead.imageAlt}
-                className="aspect-[4/5] w-full rounded-lg object-cover object-top"
+                className={`aspect-[16/12] w-full rounded-lg ${
+                  team.lead.imageFit === "contain" ? "object-contain" : "object-cover"
+                }`}
+                style={{ objectPosition: team.lead.imagePosition || "center top" }}
                 loading="lazy"
                 decoding="async"
               />

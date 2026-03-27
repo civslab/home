@@ -1,6 +1,6 @@
 import { motion, useReducedMotion } from "framer-motion";
 
-export default function Hero({ image }) {
+export default function Hero({ collageImages }) {
   const prefersReducedMotion = useReducedMotion();
 
   return (
@@ -60,13 +60,30 @@ export default function Hero({ image }) {
           className="relative lg:pl-8"
         >
           <div className="surface-card ghost-outline section-frame overflow-hidden rounded-xl p-4">
-            <img
-              src={image}
-              alt=""
-              aria-hidden="true"
-              className="aspect-[4/5] w-full rounded-lg object-cover"
-              fetchPriority="high"
-            />
+            <div className="grid aspect-[4/5] grid-cols-2 gap-3 rounded-lg bg-[var(--surface-low)] p-3">
+              {collageImages.map((image, index) => (
+                <motion.figure
+                  key={image.src}
+                  initial={prefersReducedMotion ? false : { opacity: 0, scale: 0.97 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{
+                    duration: 0.45,
+                    delay: prefersReducedMotion ? 0 : 0.18 + index * 0.06,
+                  }}
+                  className="overflow-hidden rounded-md bg-[var(--surface-high)]"
+                >
+                  <img
+                    src={image.src}
+                    alt={image.alt}
+                    className="h-full w-full object-cover"
+                    style={{ objectPosition: image.position || "center" }}
+                    fetchPriority={index === 0 ? "high" : undefined}
+                    loading={index === 0 ? undefined : "lazy"}
+                    decoding="async"
+                  />
+                </motion.figure>
+              ))}
+            </div>
           </div>
 
           <div className="surface-panel ghost-outline section-frame mt-5 rounded-md p-5 lg:absolute lg:-bottom-6 lg:left-0 lg:mt-0 lg:max-w-[18rem]">
