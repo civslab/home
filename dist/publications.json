@@ -1,0 +1,583 @@
+{
+  "generatedAt": "2026-03-27T20:41:27.445511+00:00",
+  "source": "Exported Items.bib",
+  "members": [
+    {
+      "id": "krishna-kisi",
+      "name": "Dr. Krishna Kisi",
+      "role": "Professor and Principal Investigator"
+    },
+    {
+      "id": "rujan-kayastha",
+      "name": "Rujan Kayastha",
+      "role": "PhD Candidate"
+    },
+    {
+      "id": "sujan-acharya",
+      "name": "Sujan Acharya",
+      "role": "PhD Scholar"
+    },
+    {
+      "id": "shree-gnanasekar",
+      "name": "Shree G. Gnanasekar",
+      "role": "Graduate Researcher"
+    },
+    {
+      "id": "david-canas-vanegas",
+      "name": "David Canas Vanegas",
+      "role": "Alumni Network"
+    },
+    {
+      "id": "sachin-pandey",
+      "name": "Sachin Pandey",
+      "role": "Undergraduate Research Assistant"
+    }
+  ],
+  "publications": [
+    {
+      "id": "mahmud_evaluating_2025",
+      "title": "Evaluating the Effectiveness of Plantar Pressure Sensors for Fall Detection in Sloped Surfaces",
+      "year": "2025",
+      "type": "Journal Article",
+      "venue": "Electronics",
+      "authors": [
+        "Mahmud, Tarek",
+        "Kayastha, Rujan",
+        "Kisi, Krishna",
+        "Ngu, Anne Hee",
+        "Alamgeer, Sana"
+      ],
+      "authorsApa": "Mahmud, T., Kayastha, R., Kisi, K., Ngu, A. H., & Alamgeer, S.",
+      "citationApa": "Mahmud, T., Kayastha, R., Kisi, K., Ngu, A. H., & Alamgeer, S. (2025). Evaluating the Effectiveness of Plantar Pressure Sensors for Fall Detection in Sloped Surfaces. Electronics. https://doi.org/10.3390/electronics14153003",
+      "doi": "10.3390/electronics14153003",
+      "url": "https://doi.org/10.3390/electronics14153003",
+      "members": [
+        "rujan-kayastha",
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "acharya_high-performance_2025",
+      "title": "A high-performance hybrid transformer\u2013LSTM\u2013XGBoost model for sEMG-based fatigue detection in simulated roofing postures",
+      "year": "2025",
+      "type": "Journal Article",
+      "venue": "Buildings",
+      "authors": [
+        "Acharya, Sujan",
+        "Kisi, Krishna",
+        "Gautam, Sabrin Raj",
+        "Mahmud, Tarek",
+        "Kayastha, Rujan"
+      ],
+      "authorsApa": "Acharya, S., Kisi, K., Gautam, S. R., Mahmud, T., & Kayastha, R.",
+      "citationApa": "Acharya, S., Kisi, K., Gautam, S. R., Mahmud, T., & Kayastha, R. (2025). A high-performance hybrid transformer\u2013LSTM\u2013XGBoost model for sEMG-based fatigue detection in simulated roofing postures. Buildings. https://www.mdpi.com/2075-5309/15/17/3005",
+      "doi": null,
+      "url": "https://www.mdpi.com/2075-5309/15/17/3005",
+      "members": [
+        "sujan-acharya",
+        "krishna-kisi",
+        "rujan-kayastha"
+      ]
+    },
+    {
+      "id": "gautam_muscle_2025",
+      "title": "Muscle Activation Patterns in Stooping Posture on Sloped Roofing Surfaces",
+      "year": "2025",
+      "type": "Journal Article",
+      "venue": "Proc. Assoc. Sch. Con",
+      "authors": [
+        "Gautam, Sabrin Raj",
+        "Acharya, Sujan",
+        "Kayastha, Rujan",
+        "Mahmud, Tarek",
+        "Kisi, Krishna"
+      ],
+      "authorsApa": "Gautam, S. R., Acharya, S., Kayastha, R., Mahmud, T., & Kisi, K.",
+      "citationApa": "Gautam, S. R., Acharya, S., Kayastha, R., Mahmud, T., & Kisi, K. (2025). Muscle Activation Patterns in Stooping Posture on Sloped Roofing Surfaces. Proc. Assoc. Sch. Con. https://easychair.org/publications/paper/pbZK/download",
+      "doi": null,
+      "url": "https://easychair.org/publications/paper/pbZK/download",
+      "members": [
+        "sujan-acharya",
+        "rujan-kayastha",
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "acharya_evaluating_2025",
+      "title": "Evaluating Muscle Activation and Joint Angle Correlation During Stooping Tasks on Sloped Surfaces",
+      "year": "2025",
+      "type": "Journal Article",
+      "venue": "Proceedings of Associated Schools of Con",
+      "authors": [
+        "Acharya, Sujan",
+        "Gautam, Sabrin Raj",
+        "Narapusetty, Abhinaya",
+        "Kayastha, Rujan",
+        "Kisi, Krishna"
+      ],
+      "authorsApa": "Acharya, S., Gautam, S. R., Narapusetty, A., Kayastha, R., & Kisi, K.",
+      "citationApa": "Acharya, S., Gautam, S. R., Narapusetty, A., Kayastha, R., & Kisi, K. (2025). Evaluating Muscle Activation and Joint Angle Correlation During Stooping Tasks on Sloped Surfaces. Proceedings of Associated Schools of Con. https://www.researchgate.net/profile/Sabrin-Gautam/publication/393962496_Evaluating_Muscle_Activation_and_Joint_Angle_Correlation_During_Stooping_Tasks_on_Sloped_Surfaces/links/68e81ba8f3032e2b4be7f684/Evaluating-Muscle-Activation-and-Joint-Angle-Correlation-During-Stooping-Tasks-on-Sloped-Surfaces.pdf",
+      "doi": null,
+      "url": "https://www.researchgate.net/profile/Sabrin-Gautam/publication/393962496_Evaluating_Muscle_Activation_and_Joint_Angle_Correlation_During_Stooping_Tasks_on_Sloped_Surfaces/links/68e81ba8f3032e2b4be7f684/Evaluating-Muscle-Activation-and-Joint-Angle-Correlation-During-Stooping-Tasks-on-Sloped-Surfaces.pdf",
+      "members": [
+        "sujan-acharya",
+        "rujan-kayastha",
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "kayastha_plantar_2025",
+      "title": "Plantar Pressure Distribution and Posture Stability Analysis in a Construction Roofing Task",
+      "year": "2025",
+      "type": "Journal Article",
+      "venue": "Proceedings of Associated Schools of Con",
+      "authors": [
+        "Kayastha, Rujan",
+        "Acharya, Sujan",
+        "Gautam, Sabrin Raj",
+        "Mahmud, Tarek",
+        "Kisi, Krishna"
+      ],
+      "authorsApa": "Kayastha, R., Acharya, S., Gautam, S. R., Mahmud, T., & Kisi, K.",
+      "citationApa": "Kayastha, R., Acharya, S., Gautam, S. R., Mahmud, T., & Kisi, K. (2025). Plantar Pressure Distribution and Posture Stability Analysis in a Construction Roofing Task. Proceedings of Associated Schools of Con. https://easychair.org/publications/paper/dKh9/open",
+      "doi": null,
+      "url": "https://easychair.org/publications/paper/dKh9/open",
+      "members": [
+        "rujan-kayastha",
+        "sujan-acharya",
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "tafazzoli_enhancing_2024",
+      "title": "Enhancing contractor selection through fuzzy TOPSIS and fuzzy SAW techniques",
+      "year": "2024",
+      "type": "Journal Article",
+      "venue": "Buildings",
+      "authors": [
+        "Tafazzoli, Mohammadsoroush",
+        "Hazrati, Ayoub",
+        "Shrestha, Kishor",
+        "Kisi, Krishna"
+      ],
+      "authorsApa": "Tafazzoli, M., Hazrati, A., Shrestha, K., & Kisi, K.",
+      "citationApa": "Tafazzoli, M., Hazrati, A., Shrestha, K., & Kisi, K. (2024). Enhancing contractor selection through fuzzy TOPSIS and fuzzy SAW techniques. Buildings. https://www.mdpi.com/2075-5309/14/6/1861",
+      "doi": null,
+      "url": "https://www.mdpi.com/2075-5309/14/6/1861",
+      "members": [
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "kisi_analysis_2024",
+      "title": "Analysis of musculoskeletal pains and productivity impacts among hispanic construction workers",
+      "year": "2024",
+      "type": "Journal Article",
+      "venue": "Heliyon",
+      "authors": [
+        "Kisi, Krishna P.",
+        "Kayastha, Rujan"
+      ],
+      "authorsApa": "Kisi, K. P., & Kayastha, R.",
+      "citationApa": "Kisi, K. P., & Kayastha, R. (2024). Analysis of musculoskeletal pains and productivity impacts among hispanic construction workers. Heliyon. https://www.cell.com/heliyon/fulltext/S2405-8440(24)00054-9?uuid=uuid%3A589eac56-0564-4a7e-907b-c46417b22756",
+      "doi": null,
+      "url": "https://www.cell.com/heliyon/fulltext/S2405-8440(24)00054-9?uuid=uuid%3A589eac56-0564-4a7e-907b-c46417b22756",
+      "members": [
+        "krishna-kisi",
+        "rujan-kayastha"
+      ]
+    },
+    {
+      "id": "kayastha_assessing_2024",
+      "title": "Assessing Factors Affecting Fall Accidents among Hispanic Construction Workers: Integrating Safety Insights into BIM for Enhanced Life Cycle Management",
+      "year": "2024",
+      "type": "Journal Article",
+      "venue": "Buildings",
+      "authors": [
+        "Kayastha, Rujan",
+        "Kisi, Krishna"
+      ],
+      "authorsApa": "Kayastha, R., & Kisi, K.",
+      "citationApa": "Kayastha, R., & Kisi, K. (2024). Assessing Factors Affecting Fall Accidents among Hispanic Construction Workers: Integrating Safety Insights into BIM for Enhanced Life Cycle Management. Buildings. https://www.mdpi.com/2075-5309/14/9/3017",
+      "doi": null,
+      "url": "https://www.mdpi.com/2075-5309/14/9/3017",
+      "members": [
+        "krishna-kisi",
+        "rujan-kayastha"
+      ]
+    },
+    {
+      "id": "kayastha_analysis_2024",
+      "title": "Analysis of Price Adjustment Claim during Project Time Extension",
+      "year": "2024",
+      "type": "Journal Article",
+      "venue": "Journal of Legal Affairs and Dispute Resolution in Engineering and Construction",
+      "authors": [
+        "Kayastha, Rujan",
+        "Kisi, Krishna",
+        "Chitrakar, Yogendra"
+      ],
+      "authorsApa": "Kayastha, R., Kisi, K., & Chitrakar, Y.",
+      "citationApa": "Kayastha, R., Kisi, K., & Chitrakar, Y. (2024). Analysis of Price Adjustment Claim during Project Time Extension. Journal of Legal Affairs and Dispute Resolution in Engineering and Construction. https://doi.org/10.1061/JLADAH.LADR-1063",
+      "doi": "10.1061/JLADAH.LADR-1063",
+      "url": "https://doi.org/10.1061/JLADAH.LADR-1063",
+      "members": [
+        "krishna-kisi",
+        "rujan-kayastha"
+      ]
+    },
+    {
+      "id": "kayastha_assessing_2024-2",
+      "title": "Assessing Factors Affecting Fall Accidents among Hispanic Construction Workers: Integrating Safety Insights into BIM for Enhanced Life Cycle Management",
+      "year": "2024",
+      "type": "Journal Article",
+      "venue": "Buildings",
+      "authors": [
+        "Kayastha, Rujan",
+        "Kisi, Krishna"
+      ],
+      "authorsApa": "Kayastha, R., & Kisi, K.",
+      "citationApa": "Kayastha, R., & Kisi, K. (2024). Assessing Factors Affecting Fall Accidents among Hispanic Construction Workers: Integrating Safety Insights into BIM for Enhanced Life Cycle Management. Buildings. https://doi.org/10.3390/buildings14093017",
+      "doi": "10.3390/buildings14093017",
+      "url": "https://doi.org/10.3390/buildings14093017",
+      "members": [
+        "rujan-kayastha",
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "kayastha_legal_2024",
+      "title": "Legal Disputes between Home Builders and Home Buyers in Sustainable Housing Construction",
+      "year": "2024",
+      "type": "Journal Article",
+      "venue": "Journal of Legal Affairs and Dispute Resolution in Engineering and Construction",
+      "authors": [
+        "Kayastha, Rujan",
+        "Kisi, Krishna",
+        "Chitrakar, Yogendra",
+        "Bhattarai, Sushmit Sharma"
+      ],
+      "authorsApa": "Kayastha, R., Kisi, K., Chitrakar, Y., & Bhattarai, S. S.",
+      "citationApa": "Kayastha, R., Kisi, K., Chitrakar, Y., & Bhattarai, S. S. (2024). Legal Disputes between Home Builders and Home Buyers in Sustainable Housing Construction. Journal of Legal Affairs and Dispute Resolution in Engineering and Construction. https://doi.org/10.1061/JLADAH.LADR-1029",
+      "doi": "10.1061/JLADAH.LADR-1029",
+      "url": "https://doi.org/10.1061/JLADAH.LADR-1029",
+      "members": [
+        "rujan-kayastha",
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "kisi_construction_2023",
+      "title": "Construction Claims and Payment Disputes Analysis: Alternative Dispute Resolution to Litigation",
+      "year": "2023",
+      "type": "Journal Article",
+      "venue": "Journal of Legal Affairs and Dispute Resolution in Engineering and Construction",
+      "authors": [
+        "Kisi, Krishna",
+        "Kayastha, Rujan",
+        "Chitrakar, Yogendra"
+      ],
+      "authorsApa": "Kisi, K., Kayastha, R., & Chitrakar, Y.",
+      "citationApa": "Kisi, K., Kayastha, R., & Chitrakar, Y. (2023). Construction Claims and Payment Disputes Analysis: Alternative Dispute Resolution to Litigation. Journal of Legal Affairs and Dispute Resolution in Engineering and Construction. https://doi.org/10.1061/JLADAH.LADR-908",
+      "doi": "10.1061/JLADAH.LADR-908",
+      "url": "https://doi.org/10.1061/JLADAH.LADR-908",
+      "members": [
+        "krishna-kisi",
+        "rujan-kayastha"
+      ]
+    },
+    {
+      "id": "bhattarai_contractors_2023",
+      "title": "Contractors\u2019 Claims in an EPC and Turnkey Contract: Lessons Learned from a Hydropower Project",
+      "year": "2023",
+      "type": "Journal Article",
+      "venue": "Journal of Legal Affairs and Dispute Resolution in Engineering and Construction",
+      "authors": [
+        "Bhattarai, Sushmit Sharma",
+        "Kisi, Krishna P.",
+        "Kayastha, Rujan"
+      ],
+      "authorsApa": "Bhattarai, S. S., Kisi, K. P., & Kayastha, R.",
+      "citationApa": "Bhattarai, S. S., Kisi, K. P., & Kayastha, R. (2023). Contractors\u2019 Claims in an EPC and Turnkey Contract: Lessons Learned from a Hydropower Project. Journal of Legal Affairs and Dispute Resolution in Engineering and Construction. https://doi.org/10.1061/JLADAH.LADR-915",
+      "doi": "10.1061/JLADAH.LADR-915",
+      "url": "https://doi.org/10.1061/JLADAH.LADR-915",
+      "members": [
+        "krishna-kisi",
+        "rujan-kayastha"
+      ]
+    },
+    {
+      "id": "kisi_construction_2022",
+      "title": "Construction Cost and Schedule Impacts Due to COVID-19",
+      "year": "2022",
+      "type": "Journal Article",
+      "venue": "Journal of Legal Affairs and Dispute Resolution in Engineering and Construction",
+      "authors": [
+        "Kisi, Krishna P.",
+        "Sulbaran, Tulio"
+      ],
+      "authorsApa": "Kisi, K. P., & Sulbaran, T.",
+      "citationApa": "Kisi, K. P., & Sulbaran, T. (2022). Construction Cost and Schedule Impacts Due to COVID-19. Journal of Legal Affairs and Dispute Resolution in Engineering and Construction. https://doi.org/10.1061/(ASCE)LA.1943-4170.0000565",
+      "doi": "10.1061/(ASCE)LA.1943-4170.0000565",
+      "url": "https://doi.org/10.1061/(ASCE)LA.1943-4170.0000565",
+      "members": [
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "kisi_alternative_2020",
+      "title": "Alternative Dispute Resolution Practices in International Road Construction Contracts",
+      "year": "2020",
+      "type": "Journal Article",
+      "venue": "Journal of Legal Affairs and Dispute Resolution in Engineering and Construction",
+      "authors": [
+        "Kisi, Krishna P.",
+        "Lee, Namhun",
+        "Kayastha, Rujan",
+        "Kovel, Jacob"
+      ],
+      "authorsApa": "Kisi, K. P., Lee, N., Kayastha, R., & Kovel, J.",
+      "citationApa": "Kisi, K. P., Lee, N., Kayastha, R., & Kovel, J. (2020). Alternative Dispute Resolution Practices in International Road Construction Contracts. Journal of Legal Affairs and Dispute Resolution in Engineering and Construction. https://doi.org/10.1061/(ASCE)LA.1943-4170.0000373",
+      "doi": "10.1061/(ASCE)LA.1943-4170.0000373",
+      "url": "https://doi.org/10.1061/(ASCE)LA.1943-4170.0000373",
+      "members": [
+        "krishna-kisi",
+        "rujan-kayastha"
+      ]
+    },
+    {
+      "id": "tafazzoli_investigating_2020",
+      "title": "Investigating the Relative Importance Barriers to Sustainable Construction Related to Owners, Contractors, and Government",
+      "year": "2020",
+      "type": "Conference Paper",
+      "venue": "Construction Research Congress 2020",
+      "authors": [
+        "Tafazzoli, Mohammadsoroush",
+        "Kermanshachi, Sharareh",
+        "Shrestha, Kishor",
+        "Kisi, Krishna"
+      ],
+      "authorsApa": "Tafazzoli, M., Kermanshachi, S., Shrestha, K., & Kisi, K.",
+      "citationApa": "Tafazzoli, M., Kermanshachi, S., Shrestha, K., & Kisi, K. (2020). Investigating the Relative Importance Barriers to Sustainable Construction Related to Owners, Contractors, and Government. Construction Research Congress 2020. https://doi.org/10.1061/9780784482858.038",
+      "doi": "10.1061/9780784482858.038",
+      "url": "https://doi.org/10.1061/9780784482858.038",
+      "members": [
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "kisi_labor_2020",
+      "title": "Labor Shortage and Safety Issues in Postearthquake Building Construction: Case Study",
+      "year": "2020",
+      "type": "Journal Article",
+      "venue": "Journal of Legal Affairs and Dispute Resolution in Engineering and Construction",
+      "authors": [
+        "Kisi, Krishna P.",
+        "Shrestha, K. Joseph",
+        "Kayastha, Rujan"
+      ],
+      "authorsApa": "Kisi, K. P., Shrestha, K. J., & Kayastha, R.",
+      "citationApa": "Kisi, K. P., Shrestha, K. J., & Kayastha, R. (2020). Labor Shortage and Safety Issues in Postearthquake Building Construction: Case Study. Journal of Legal Affairs and Dispute Resolution in Engineering and Construction. https://doi.org/10.1061/(ASCE)LA.1943-4170.0000386",
+      "doi": "10.1061/(ASCE)LA.1943-4170.0000386",
+      "url": "https://doi.org/10.1061/(ASCE)LA.1943-4170.0000386",
+      "members": [
+        "krishna-kisi",
+        "rujan-kayastha"
+      ]
+    },
+    {
+      "id": "kisi_opportunities_2019",
+      "title": "Opportunities and challenges for modular construction in developing nations: A case study in the nepalese construction industry",
+      "year": "2019",
+      "type": "Conference Paper",
+      "venue": "7th Canadian Society for Civil Engineers (CSCE) Annual Conference",
+      "authors": [
+        "Kisi, Krishna P.",
+        "Mani, Nirajan",
+        "Lee, Namhun",
+        "Shrestha, Joseph",
+        "Shrestha, Kishor",
+        "Kayastha, Rujan"
+      ],
+      "authorsApa": "Kisi, K. P., Mani, N., Lee, N., Shrestha, J., Shrestha, K., & Kayastha, R.",
+      "citationApa": "Kisi, K. P., Mani, N., Lee, N., Shrestha, J., Shrestha, K., & Kayastha, R. (2019). Opportunities and challenges for modular construction in developing nations: A case study in the nepalese construction industry. 7th Canadian Society for Civil Engineers (CSCE) Annual Conference. https://www.academia.edu/download/86418528/PaperPDFversion_231_0421121811.pdf",
+      "doi": null,
+      "url": "https://www.academia.edu/download/86418528/PaperPDFversion_231_0421121811.pdf",
+      "members": [
+        "krishna-kisi",
+        "rujan-kayastha"
+      ]
+    },
+    {
+      "id": "kisi_estimation_2018",
+      "title": "Estimation of Optimal Productivity in Labor-Intensive Construction Operations: Advanced Study",
+      "year": "2018",
+      "type": "Journal Article",
+      "venue": "Journal of Construction Engineering and Management",
+      "authors": [
+        "Kisi, Krishna P.",
+        "Mani, Nirajan",
+        "Rojas, Eddy M.",
+        "Foster, E. Terence"
+      ],
+      "authorsApa": "Kisi, K. P., Mani, N., Rojas, E. M., & Foster, E. T.",
+      "citationApa": "Kisi, K. P., Mani, N., Rojas, E. M., & Foster, E. T. (2018). Estimation of Optimal Productivity in Labor-Intensive Construction Operations: Advanced Study. Journal of Construction Engineering and Management. https://doi.org/10.1061/(ASCE)CO.1943-7862.0001551",
+      "doi": "10.1061/(ASCE)CO.1943-7862.0001551",
+      "url": "https://doi.org/10.1061/(ASCE)CO.1943-7862.0001551",
+      "members": [
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "kisi_optimal_2017",
+      "title": "Optimal Productivity in Labor-Intensive Construction Operations: Pilot Study",
+      "year": "2017",
+      "type": "Journal Article",
+      "venue": "Journal of Construction Engineering and Management",
+      "authors": [
+        "Kisi, Krishna P.",
+        "Mani, Nirajan",
+        "Rojas, Eddy M.",
+        "Foster, E. Terence"
+      ],
+      "authorsApa": "Kisi, K. P., Mani, N., Rojas, E. M., & Foster, E. T.",
+      "citationApa": "Kisi, K. P., Mani, N., Rojas, E. M., & Foster, E. T. (2017). Optimal Productivity in Labor-Intensive Construction Operations: Pilot Study. Journal of Construction Engineering and Management. https://doi.org/10.1061/(ASCE)CO.1943-7862.0001257",
+      "doi": "10.1061/(ASCE)CO.1943-7862.0001257",
+      "url": "https://doi.org/10.1061/(ASCE)CO.1943-7862.0001257",
+      "members": [
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "mani_estimating_2017",
+      "title": "Estimating Construction Labor Productivity Frontier: Pilot Study",
+      "year": "2017",
+      "type": "Journal Article",
+      "venue": "Journal of Construction Engineering and Management",
+      "authors": [
+        "Mani, Nirajan",
+        "Kisi, Krishna P.",
+        "Rojas, Eddy M.",
+        "Foster, E. Terence"
+      ],
+      "authorsApa": "Mani, N., Kisi, K. P., Rojas, E. M., & Foster, E. T.",
+      "citationApa": "Mani, N., Kisi, K. P., Rojas, E. M., & Foster, E. T. (2017). Estimating Construction Labor Productivity Frontier: Pilot Study. Journal of Construction Engineering and Management. https://doi.org/10.1061/(ASCE)CO.1943-7862.0001390",
+      "doi": "10.1061/(ASCE)CO.1943-7862.0001390",
+      "url": "https://doi.org/10.1061/(ASCE)CO.1943-7862.0001390",
+      "members": [
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "kisi_case_2016",
+      "title": "A Case Study on Estimating Optimal Labor Productivity",
+      "year": "2016",
+      "type": "Conference Paper",
+      "venue": "Construction Research Congress 2016",
+      "authors": [
+        "Kisi, Krishna P.",
+        "Mani, Nirajan",
+        "Rojas, Eddy M.",
+        "Terence Foster, E."
+      ],
+      "authorsApa": "Kisi, K. P., Mani, N., Rojas, E. M., & Terence Foster, E.",
+      "citationApa": "Kisi, K. P., Mani, N., Rojas, E. M., & Terence Foster, E. (2016). A Case Study on Estimating Optimal Labor Productivity. Construction Research Congress 2016. https://doi.org/10.1061/9780784479827.176",
+      "doi": "10.1061/9780784479827.176",
+      "url": "https://doi.org/10.1061/9780784479827.176",
+      "members": [
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "kisi_estimation_2015",
+      "title": "Estimation of optimal productivity in labor-intensive construction operations",
+      "year": "2015",
+      "type": "Book",
+      "venue": "The University of Nebraska-Lincoln",
+      "authors": [
+        "Kisi, Krishna Prasad"
+      ],
+      "authorsApa": "Kisi, K. P.",
+      "citationApa": "Kisi, K. P. (2015). Estimation of optimal productivity in labor-intensive construction operations. The University of Nebraska-Lincoln. https://search.proquest.com/openview/5c6feeb3271fadf393c9179817ea3095/1?pq-origsite=gscholar&cbl=18750",
+      "doi": null,
+      "url": "https://search.proquest.com/openview/5c6feeb3271fadf393c9179817ea3095/1?pq-origsite=gscholar&cbl=18750",
+      "members": [
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "mani_estimating_2014",
+      "title": "Estimating Labor Productivity Frontier: A Pilot Study",
+      "year": "2014",
+      "type": "Conference Paper",
+      "venue": "Construction Research Congress 2014",
+      "authors": [
+        "Mani, Nirajan",
+        "Kisi, Krishna P.",
+        "Rojas, Eddy M."
+      ],
+      "authorsApa": "Mani, N., Kisi, K. P., & Rojas, E. M.",
+      "citationApa": "Mani, N., Kisi, K. P., & Rojas, E. M. (2014). Estimating Labor Productivity Frontier: A Pilot Study. Construction Research Congress 2014. https://doi.org/10.1061/9780784413517.083",
+      "doi": "10.1061/9780784413517.083",
+      "url": "https://doi.org/10.1061/9780784413517.083",
+      "members": [
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "kisi_estimating_2014",
+      "title": "Estimating Optimal Labor Productivity: A Two-Pronged Strategy",
+      "year": "2014",
+      "type": "Conference Paper",
+      "venue": "Construction Research Congress 2014",
+      "authors": [
+        "Kisi, Krishna P.",
+        "Mani, Nirajan",
+        "Rojas, Eddy M."
+      ],
+      "authorsApa": "Kisi, K. P., Mani, N., & Rojas, E. M.",
+      "citationApa": "Kisi, K. P., Mani, N., & Rojas, E. M. (2014). Estimating Optimal Labor Productivity: A Two-Pronged Strategy. Construction Research Congress 2014. https://doi.org/10.1061/9780784413517.078",
+      "doi": "10.1061/9780784413517.078",
+      "url": "https://doi.org/10.1061/9780784413517.078",
+      "members": [
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "kisi_factors_2011",
+      "title": "Factors influencing high school students to pursue a construction baccalaureate",
+      "year": "2011",
+      "type": "Conference Paper",
+      "venue": "The 47th Associated School of Construction Annual International Conference",
+      "authors": [
+        "Kisi, K. P.",
+        "Shields, D. R.",
+        "Shrestha, P. P."
+      ],
+      "authorsApa": "Kisi, K. P., Shields, D. R., & Shrestha, P. P.",
+      "citationApa": "Kisi, K. P., Shields, D. R., & Shrestha, P. P. (2011). Factors influencing high school students to pursue a construction baccalaureate. The 47th Associated School of Construction Annual International Conference. https://scholar.google.com/scholar?cluster=4691838292228277427&hl=en&oi=scholarr",
+      "doi": null,
+      "url": "https://scholar.google.com/scholar?cluster=4691838292228277427&hl=en&oi=scholarr",
+      "members": [
+        "krishna-kisi"
+      ]
+    },
+    {
+      "id": "kisi_high_2010",
+      "title": "High school student interests in architecture, construction, and engineering education",
+      "year": "2010",
+      "type": "Master's Thesis",
+      "venue": "University of Nevada, Las Vegas",
+      "authors": [
+        "Kisi, Krishna Prasad"
+      ],
+      "authorsApa": "Kisi, K. P.",
+      "citationApa": "Kisi, K. P. (2010). High school student interests in architecture, construction, and engineering education. University of Nevada, Las Vegas. https://search.proquest.com/openview/cc92129613a3a64f368ba9c3af70d025/1?pq-origsite=gscholar&cbl=18750",
+      "doi": null,
+      "url": "https://search.proquest.com/openview/cc92129613a3a64f368ba9c3af70d025/1?pq-origsite=gscholar&cbl=18750",
+      "members": [
+        "krishna-kisi"
+      ]
+    }
+  ]
+}
