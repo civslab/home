@@ -50,7 +50,7 @@ export default function App() {
           id="research"
           eyebrow="Research"
           titleLines={["Core", "Interests"]}
-          subtitle="Our research explores occupational safety, cognitive performance, and technology-rich learning through six connected focus areas."
+          subtitle="The lab's work spans six focus areas in safety, human performance, and technology-enabled learning."
           cards={researchInterests}
         />
         <ProjectsGrid projects={projects} />
