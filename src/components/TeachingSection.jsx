@@ -35,11 +35,11 @@ export default function TeachingSection({ courses }) {
           >
             <p className="eyebrow">Teaching</p>
             <h2 className="section-title mt-5 text-4xl font-extrabold md:text-5xl">
-              Courses & Mentorship
+              Teaching
             </h2>
             <p className="body-copy mt-6 max-w-xl">
-              Graduate and undergraduate instruction spanning project management,
-              dispute resolution, BIM, estimating, and capstone work.
+              Graduate and undergraduate courses in project management, dispute
+              resolution, BIM, estimating, and capstone work.
             </p>
           </motion.div>
 

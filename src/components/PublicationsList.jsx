@@ -94,8 +94,7 @@ export default function PublicationsList() {
               Publications
             </h2>
             <p className="body-copy mt-6 max-w-xl">
-              APA-style entries generated from the lab bibliography and filterable by team
-              member.
+              Entries from the lab bibliography, filterable by team member.
             </p>
           </motion.div>
 

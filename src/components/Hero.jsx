@@ -18,8 +18,8 @@ export default function Hero({ collageImages }) {
             <span className="block text-[var(--primary)]">Visualization & Synthesis</span>
           </h1>
           <p className="body-copy mt-6 max-w-2xl text-lg md:text-[1.05rem]">
-            CIVS Lab advances research in dispute resolution, productivity, training
-            technology, and safety across construction and mining industries.
+            CIVS Lab focuses on dispute resolution, productivity, training technology,
+            and safety in construction and mining.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">

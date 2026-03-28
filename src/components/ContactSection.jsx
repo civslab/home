@@ -16,20 +16,23 @@ export default function ContactSection() {
             <div>
               <p className="eyebrow">Get in Touch</p>
               <h2 className="section-title mt-5 text-4xl font-extrabold md:text-5xl">
-                Contact CIVS
+                Contact
               </h2>
 
               <dl className="mt-8 space-y-6">
                 <div>
                   <dt className="eyebrow">Principal Investigator</dt>
                   <dd className="mt-2 text-lg text-[var(--on-surface)]">Dr. Krishna Kisi</dd>
+                  <dd className="mt-1 text-sm text-[var(--on-surface-variant)]">
+                    Associate Professor, Department of Engineering Technology
+                  </dd>
                 </div>
 
                 <div>
                   <dt className="eyebrow">Email</dt>
                   <dd className="mt-2">
-                    <a href="mailto:kpkisi@txstate.edu" className="editorial-link">
-                      kpkisi@txstate.edu
+                    <a href="mailto:kpk41@txstate.edu" className="editorial-link">
+                      kpk41@txstate.edu
                     </a>
                   </dd>
                 </div>
@@ -37,9 +40,11 @@ export default function ContactSection() {
                 <div>
                   <dt className="eyebrow">Location</dt>
                   <dd className="mt-2 text-sm leading-relaxed text-[var(--on-surface-variant)]">
+                    RFM 2240
+                    <br />
                     601 University Drive
                     <br />
-                    San Marcos, TX 78666-4684
+                    San Marcos, TX 78666
                   </dd>
                 </div>
 

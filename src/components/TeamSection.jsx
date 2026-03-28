@@ -104,11 +104,11 @@ export default function TeamSection({ team }) {
           >
             <p className="eyebrow">Research Team</p>
             <h2 className="section-title mt-5 text-4xl font-extrabold md:text-5xl">
-              Clear Team Hierarchy
+              Research Team
             </h2>
             <p className="body-copy mt-6 max-w-xl">
-              CIVS Lab is structured with a faculty lead, doctoral scholars, graduate
-              researchers, student support, and an alumni network.
+              Faculty lead, doctoral scholars, graduate researchers, student support,
+              and alumni.
             </p>
           </motion.div>
 

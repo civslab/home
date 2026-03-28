@@ -18,8 +18,8 @@ export default function ProjectsGrid({ projects }) {
               Research Projects
             </h2>
             <p className="body-copy mt-6 max-w-xl">
-              Exploring occupational safety, cognitive performance, immersive learning,
-              and technology adoption across construction contexts.
+              Selected projects in safety, human performance, immersive learning, and
+              technology adoption.
             </p>
           </motion.div>
 

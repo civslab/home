@@ -160,8 +160,7 @@ export default function Navbar({ links }) {
             </div>
 
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-[var(--on-surface-variant)]">
-              Construction informatics, visualization, and synthesis research at Texas State
-              University.
+              CIVS Lab at Texas State University.
             </p>
           </motion.div>
         )}
