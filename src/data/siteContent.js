@@ -63,9 +63,9 @@ export const aboutContent = {
   eyebrow: "About",
   title: "DOTS Research at Texas State University",
   intro:
-    "Welcome to DOTS Research at Texas State University. DOTS stands for dispute resolution, optimal productivity, technology in training and education, and safety in mining and construction.",
+    "DOTS stands for dispute resolution, optimal productivity, technology in training and education, and safety in mining and construction.",
   biography:
-    "Dr. Krishna Kisi works with collaborators across the globe and serves students in construction science and management through research, teaching, and workforce-focused innovation.",
+    "Dr. Krishna Kisi is an associate professor in the Department of Engineering Technology at Texas State University.",
   image: siteAssets.krishnaPortrait,
   imageAlt: "Dr. Krishna Kisi standing on the Texas State University campus.",
   imageFit: "cover",
@@ -73,7 +73,7 @@ export const aboutContent = {
   credentials: [
     {
       label: "Doctoral Degree",
-      value: "Engineering, University of Nebraska-Lincoln",
+      value: "Engineering (Construction Engineering and Management), University of Nebraska-Lincoln",
     },
     {
       label: "Master's Degree",
@@ -117,7 +117,7 @@ export const researchInterests = [
     title: "STEM Workforce Resiliency",
     badge: "Research Interest",
     description:
-      "Building stronger pathways into construction and engineering through resilient training systems, mentorship, and workforce development.",
+      "Supporting construction and engineering pathways through training, mentorship, and workforce development.",
     image: siteAssets.teamCover,
     imageAlt:
       "CIVS Lab team photo used to represent STEM workforce resiliency and mentoring.",
@@ -128,7 +128,7 @@ export const researchInterests = [
     title: "Health and Safety",
     badge: "Research Interest",
     description:
-      "Improving safety in construction and general industries through training, field research, and evidence-based prevention strategies.",
+      "Improving safety in construction and general industry through training and field research.",
     image: siteAssets.safetyBanner,
     imageAlt:
       "Safety research banner from the previous CIVS Lab website export.",
@@ -139,7 +139,7 @@ export const researchInterests = [
     title: "AI and Human Performance",
     badge: "Research Interest",
     description:
-      "Studying how data, sensing, and performance analysis can support better decision making and safer work environments.",
+      "Studying how data and sensing can support decision making and safer work.",
     image: siteAssets.researchBanner,
     imageAlt:
       "Wide CIVS Lab research banner used to represent AI and human performance work.",
@@ -150,7 +150,7 @@ export const researchInterests = [
     title: "Cognitive and Physical Fatigue",
     badge: "Research Interest",
     description:
-      "Examining fatigue, strain, and physiological signals in high-risk work to improve worker well-being and performance.",
+      "Examining fatigue, strain, and physiological signals in high-risk work.",
     image: siteAssets.roofingMusculoskeletal,
     imageAlt:
       "Wearable-sensor research image used for cognitive and physical fatigue studies.",
@@ -161,7 +161,7 @@ export const researchInterests = [
     title: "Dispute Resolution",
     badge: "Research Interest",
     description:
-      "Analyzing contract clauses, claims, negligence, and other conflict mechanisms in engineering and construction.",
+      "Studying contract clauses, claims, negligence, and conflict in construction and engineering.",
     image: siteAssets.disputeBanner,
     imageAlt:
       "Dispute resolution project banner from the previous CIVS Lab site.",
@@ -172,7 +172,7 @@ export const researchInterests = [
     title: "Smart Technologies",
     badge: "Research Interest",
     description:
-      "Exploring AR, VR, MR, and other smart technologies for training, education, and improved operational outcomes.",
+      "Exploring AR, VR, MR, and related tools for training and education.",
     image: siteAssets.technologyBanner,
     imageAlt:
       "Technology in training and education banner from the previous CIVS Lab site.",
@@ -187,7 +187,7 @@ export const projects = [
     sponsor: "Supported by Quanta Services",
     tag: "Active",
     description:
-      "A pilot AR project helping students understand how electrical hazards influence construction contracts, risk management, and ethical decision making.",
+      "A pilot AR project examining electrical hazards, contracts, risk management, and ethical decision making.",
     image: siteAssets.constructionEducation,
     imageAlt:
       "Augmented reality construction education image from the previous CIVS Lab site.",
@@ -199,7 +199,7 @@ export const projects = [
     sponsor: "Wearable Sensor Research",
     tag: "Active",
     description:
-      "Analyzing muscle fatigue and injury risks among roofers with IMU and EMG sensing to improve ergonomic safety strategies.",
+      "Studying muscle fatigue and injury risk among roofers using IMU and EMG sensing.",
     image: siteAssets.roofingMusculoskeletal,
     imageAlt:
       "Wearable sensor image associated with work-related musculoskeletal disorder research.",
@@ -211,7 +211,7 @@ export const projects = [
     sponsor: "Immersive Safety Training",
     tag: "Active",
     description:
-      "Using virtual reality to strengthen hazard recognition and response in a safe, controlled environment.",
+      "Using virtual reality to support hazard recognition and response training.",
     image: siteAssets.vrTraining,
     imageAlt:
       "VR safety training image from the previous CIVS Lab research page.",
@@ -223,7 +223,7 @@ export const projects = [
     sponsor: "Human Performance",
     tag: "Research",
     description:
-      "Investigating judgment, risk assessment, and problem solving under high-stress or complex work conditions.",
+      "Examining judgment and risk assessment in complex work settings.",
     image: siteAssets.cognitiveDecision,
     imageAlt:
       "Cognitive decision-making image from the previous CIVS Lab research page.",
@@ -235,7 +235,7 @@ export const projects = [
     sponsor: "Contracts and Claims",
     tag: "Research",
     description:
-      "Studying contract clauses, payment disputes, backcharge claims, negligence, and related documents in construction and engineering.",
+      "Studying contract clauses, payment disputes, backcharges, negligence, and related documents.",
     image: siteAssets.disputeBanner,
     imageAlt:
       "Dispute resolution banner from the previous CIVS Lab project page.",
@@ -247,7 +247,7 @@ export const projects = [
     sponsor: "AR / VR / MR Learning",
     tag: "Research",
     description:
-      "Developing VR games to reduce math hesitancy for STEM majors and AR/VR/MR modules for training and education.",
+      "Developing AR, VR, and MR learning tools for training and education.",
     image: siteAssets.technologyBanner,
     imageAlt:
       "Technology in training and education banner from the previous CIVS Lab project page.",
@@ -259,7 +259,7 @@ export const projects = [
     sponsor: "Safety Training Grants",
     tag: "Past Project",
     description:
-      "Creating safety training materials and applied research tied to workplace safety, infectious disease response, and fall prevention grants.",
+      "Applied work tied to workplace safety, infectious disease response, and fall prevention grants.",
     image: siteAssets.productivityBanner,
     imageAlt:
       "Optimal productivity, synthesis, and simulation banner from the previous CIVS Lab project page.",
@@ -271,11 +271,11 @@ export const projects = [
 export const researchTeam = {
   lead: {
     level: "01",
-    title: "Professor",
+    title: "Faculty Lead",
     name: "Dr. Krishna Kisi",
-    role: "Professor and Principal Investigator",
+    role: "Associate Professor, Department of Engineering Technology",
     description:
-      "Leads the CIVS Lab research agenda across construction informatics, visualization, safety, and human performance.",
+      "Leads research in construction informatics, visualization, safety, and human performance.",
     image: siteAssets.krishnaPortrait,
     imageAlt: "Dr. Krishna Kisi on campus at Texas State University.",
     imageFit: "cover",
@@ -286,7 +286,7 @@ export const researchTeam = {
       level: "02",
       title: "Doctoral Research",
       description:
-        "Advanced doctoral work supporting the lab's core safety, technology, and human-performance agenda.",
+        "Doctoral research in safety, technology, and human performance.",
       members: [
         {
           name: "Rujan Kayastha",
@@ -306,7 +306,7 @@ export const researchTeam = {
       level: "03",
       title: "Graduate Researchers",
       description:
-        "Graduate-level research support across experimentation, data analysis, and project development.",
+        "Graduate support across experimentation, analysis, and project development.",
       members: [
         {
           name: "Bikesh Suwal",
@@ -326,7 +326,7 @@ export const researchTeam = {
       level: "04",
       title: "Graduate Student Support",
       description:
-        "Applied project support that helps keep the lab's day-to-day research work moving.",
+        "Project support for day-to-day lab activities.",
       members: [
         {
           name: "Alishan Bhujel",
@@ -343,11 +343,11 @@ export const researchTeam = {
       collapsible: true,
       defaultOpen: false,
       description:
-        "Former CIVS Lab contributors whose work continues to shape the wider research network.",
+        "Former CIVS Lab contributors.",
       members: [
         {
           name: "David Canas Vanegas",
-          role: "Alumni Network",
+          role: "Alumnus",
           image: siteAssets.davidPortrait,
           imageAlt: "Portrait of David Canas Vanegas.",
         },
